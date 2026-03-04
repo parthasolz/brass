@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#8b5b31"/>
+      <stop offset="1" stop-color="#5b3a24"/>
+    </linearGradient>
+    <radialGradient id="cup" cx="50%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#f2cf79"/>
+      <stop offset="1" stop-color="#8c622f"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="375" fill="url(#bg)"/>
+  <ellipse cx="230" cy="205" rx="86" ry="70" fill="url(#cup)"/>
+  <ellipse cx="370" cy="205" rx="86" ry="70" fill="url(#cup)"/>
+  <path d="M145 205C125 182 125 230 145 208" stroke="#a77a3f" stroke-width="10" fill="none"/>
+  <path d="M455 205C475 182 475 230 455 208" stroke="#a77a3f" stroke-width="10" fill="none"/>
+  <text x="188" y="214" font-size="44" fill="#5b3b21" font-family="serif" font-style="italic">Rahul</text>
+  <text x="323" y="214" font-size="44" fill="#5b3b21" font-family="serif" font-style="italic">Ananya</text>
+</svg>

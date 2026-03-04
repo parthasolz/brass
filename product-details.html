@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Details | The Brass Artisan</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+ <header class="site-header border-bottom border-dark-subtle">
+      <div class="container-fluid px-0">
+        <div class="topbar py-3 position-relative text-center">
+          <!-- <h1 class="brand m-0">The Brass Artisan</h1> -->
+          <a href="#">
+            <img src="assets/images/logo.png" alt="logo" class="img-fluid logo">
+          </a>
+          <a href="#" class="custom-orders text-decoration-none">Custom Orders <span aria-hidden="true">&raquo;</span></a>
+        </div>
+        <nav class="main-nav border-top border-dark-subtle border-opacity-25">
+          <ul class="nav justify-content-center gap-4 gap-lg-5 py-2">
+            <li class="nav-item"><a class="nav-link" href="#">Our Story</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Craftsmanship</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <nav class="navbar bg-body-tertiary menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+            <a class="navbar-brand side_img" href="#">
+              <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  Custom Orders <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Craftsmanship</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  <main class="product-detail-page py-3 py-md-4">
+    <!-- PRODUCT DETAILS CONTENT: START -->
+    <div class="container detail-wrap">
+      <nav class="detail-breadcrumbs d-flex align-items-center gap-2" aria-label="Breadcrumb">
+        <a href="index.html" class="crumb-link text-decoration-none">Home</a>
+        <span class="crumb-sep" aria-hidden="true">&#8250;</span>
+        <a href="#" class="crumb-link text-decoration-none">Brass</a>
+        <span class="crumb-sep" aria-hidden="true">&#8250;</span>
+        <span class="crumb-current">Personalized Brass Thali Set</span>
+      </nav>
+
+      <section class="product-hero mt-3">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <img src="assets/images/product-1-real.jpg" alt="Personalized Brass Thali Set" class="hero-product-image w-100">
+            <div class="thumb-row d-grid mt-2">
+              <img src="assets/images/product-1-real.jpg" alt="Thali thumbnail one" class="thumb-img w-100">
+              <img src="assets/images/product-2-real.jpg" alt="Thali thumbnail two" class="thumb-img w-100">
+              <img src="assets/images/product-3-real.jpg" alt="Thali thumbnail three" class="thumb-img w-100">
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="product-meta pe-lg-2">
+              <h2>Personalized Brass Thali Set</h2>
+              <p class="detail-price">₹ 3,900</p>
+              <div class="rating-row">
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+                <span class="reviews">35 Reviews</span>
+              </div>
+
+              <p class="detail-copy">
+                An exquisite handcrafted brass thali set, personalized with your name, perfect for special occasions and gifting.
+              </p>
+
+              <label for="engraveName" class="name-label">Add a Name to Customize <em>(Optional)</em></label>
+              <input id="engraveName" type="text" class="name-input" placeholder="Enter Name">
+              <p class="field-note">Please enter the name to be engraved on the thali. (Optional)</p>
+
+              <button class="cart-btn" type="button">ADD TO CART</button>
+              <a href="#" class="wishlist text-decoration-none">♡ Add to Wishlist</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-details mt-4 pt-2">
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <h3>Product Details</h3>
+            <p class="details-intro">
+              This personalized brass thali set is meticulously handcrafted by skilled artisans from high-quality brass, making it an elegant and timeless gift. The thali can be custom engraved with your name, adding a personal touch for pooja ceremonies, festive occasions, or housewarmings.
+            </p>
+            <p class="includes-title">This set includes:</p>
+            <ul class="includes-list">
+              <li>One large, personalized brass thali (plate) engraved with the name of your choice.</li>
+              <li>Two small brass bowls (katoris) for serving sweets, chutneys, or condiments.</li>
+              <li>One brass tumbler for water or other beverages.</li>
+              <li>Brass spoon with intricate design handle.</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="feature-icons-row">
+              <div class="feature-icon-item">
+                <img src="assets/images/icon-quality.svg" alt="Premium Brass">
+                <span>Premium<br>Brass</span>
+              </div>
+              <div class="feature-icon-item">
+                <img src="assets/images/icon-engraving.svg" alt="Custom Engravings">
+                <span>Custom<br>Engravings</span>
+              </div>
+              <div class="feature-icon-item">
+                <img src="assets/images/icon-design.svg" alt="Timeless Elegance">
+                <span>Timeless<br>Elegance</span>
+              </div>
+            </div>
+
+            <ul class="feature-points">
+              <li>Premium Brass</li>
+              <li>Custom Engravings</li>
+              <li>Timeless design for any occasion</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="related-products mt-4 pt-2 pb-2">
+        <h4>What Our Customers Say</h4>
+        <div class="row g-4 mt-1">
+          <div class="col-md-4">
+            <article class="related-card text-center">
+              <img src="assets/images/product-2-real.jpg" alt="Custom Engraved Brass Mug" class="img-fluid w-100">
+              <h5>Custom Engraved Brass Mug</h5>
+              <p>₹ 1,900</p>
+              <a href="#" class="details-btn text-decoration-none">View Details</a>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="related-card text-center">
+              <img src="assets/images/product-3-real.jpg" alt="Traditional Brass Kettle" class="img-fluid w-100">
+              <h5>Traditional Brass Kettle</h5>
+              <p>₹ 2,900</p>
+              <a href="#" class="details-btn text-decoration-none">View Details</a>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="related-card text-center">
+              <img src="assets/images/product-1-real.jpg" alt="Brass Diya and Incense Holder Set" class="img-fluid w-100">
+              <h5>Brass Diya &amp; Incense Holder Set</h5>
+              <p>₹ 1,500</p>
+              <a href="#" class="details-btn text-decoration-none">View Details</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- PRODUCT DETAILS CONTENT: END -->
+  </main>
+
+  <footer class="site-footer pt-3 pb-2">
+    <div class="container">
+      <div class="row gy-3 align-items-start footer-top">
+        <div class="col-md-2 text-center text-md-start">
+          <h6>Follow Us</h6>
+          <div class="social d-flex gap-2 justify-content-center justify-content-md-start mt-2">
+            <a href="#" aria-label="Facebook" class="social-circle">f</a>
+            <a href="#" aria-label="Instagram" class="social-circle">◎</a>
+          </div>
+        </div>
+        <div class="col-md-7 text-center">
+          <h6>What Our Customers Say</h6>
+          <p class="testimonial">
+            <em>&ldquo;Absolutely beautiful!</em> The attention to detail is amazing. A perfect gift that will<br>
+            be cherished forever.&rdquo; &mdash; Priya S.
+          </p>
+        </div>
+        <div class="col-md-3 text-center text-md-start">
+          <h6>Get in Touch</h6>
+          <p class="contact mb-1">Email: info@brassartisan.com</p>
+          <p class="contact">Phone: +123 456 7890</p>
+        </div>
+      </div>
+      <div class="copyright text-center pt-3 mt-2 border-top border-dark-subtle border-opacity-25">
+        &copy; 2022 The Brass Artisan. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

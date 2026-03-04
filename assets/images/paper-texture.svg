@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" preserveAspectRatio="none">
+  <defs>
+    <filter id="noise" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.68" numOctaves="4" seed="18" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.045"/>
+      </feComponentTransfer>
+    </filter>
+    <pattern id="fibers" width="240" height="240" patternUnits="userSpaceOnUse">
+      <path d="M8 34C48 20 82 47 121 38C161 28 194 11 231 18" stroke="#c0b09a" stroke-width="1" fill="none" opacity="0.2"/>
+      <path d="M12 118C49 128 92 102 130 116C166 129 202 148 234 140" stroke="#af9a80" stroke-width="1" fill="none" opacity="0.18"/>
+      <path d="M9 196C51 176 82 209 124 200C167 192 201 168 236 176" stroke="#cabaa6" stroke-width="1" fill="none" opacity="0.17"/>
+      <circle cx="31" cy="59" r="1.2" fill="#baa88f" opacity="0.2"/>
+      <circle cx="112" cy="184" r="1.2" fill="#b09b82" opacity="0.18"/>
+      <circle cx="197" cy="102" r="1.1" fill="#c7b8a2" opacity="0.2"/>
+    </pattern>
+    <radialGradient id="stainA" cx="22%" cy="38%" r="22%">
+      <stop offset="0" stop-color="#d8cab6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#d8cab6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="stainB" cx="74%" cy="70%" r="24%">
+      <stop offset="0" stop-color="#d3c4af" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#d3c4af" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="50%" cy="45%" r="70%">
+      <stop offset="58%" stop-color="#efe5d7" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#d5c5af" stop-opacity="0.28"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="1200" fill="#efe4d4"/>
+  <rect width="1200" height="1200" fill="url(#fibers)"/>
+  <rect width="1200" height="1200" fill="url(#stainA)"/>
+  <rect width="1200" height="1200" fill="url(#stainB)"/>
+  <rect width="1200" height="1200" filter="url(#noise)"/>
+  <rect width="1200" height="1200" fill="url(#vignette)"/>
+</svg>
