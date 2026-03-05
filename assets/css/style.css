@@ -725,6 +725,7 @@ body {
   width: 52px;
   height: 52px;
   margin-bottom: 6px;
+  object-fit: cover;
 }
 
 .feature-icon-item span {
@@ -751,13 +752,9 @@ body {
   line-height: 1.2;
 }
 
-.feature-points li::before {
-  content: "✦";
-  position: absolute;
-  left: 14px;
-  top: 2px;
-  color: #9f7c4d;
-  font-size: 1.4rem;
+.feature-points li img{
+  width: 50px;
+  object-fit: cover;
 }
 
 .related-products h4 {
