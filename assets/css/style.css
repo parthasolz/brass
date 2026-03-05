@@ -45,7 +45,7 @@ body {
   justify-self: end;
   white-space: nowrap;
   color: #4d4034;
-  font-size: 1.22rem;
+  font-size: 18px;
 }
 
 .main-nav {
@@ -59,14 +59,14 @@ body {
 
 .main-nav .nav-link {
   color: #594a3d;
-  font-size: 1.21rem;
+  font-size: 18px;
   padding: 0.45rem 0.2rem;
 }
 
 .main-nav .nav-link:hover {
   color: #2e241b;
 }
-
+.middle_nav{gap: 20px;}
 .hero-section {
   position: relative;
   min-height: 492px;
@@ -527,15 +527,12 @@ body {
 /* menu */
 .menu{display: none;}
 /* PRODUCT DETAILS PAGE STYLES: START */
-.detail-wrap {
-  max-width: 1240px;
-}
 
 .detail-breadcrumbs {
   border-bottom: 1px solid rgba(85, 68, 49, 0.18);
   padding-bottom: 12px;
   color: #5b4d41;
-  font-size: 1.26rem;
+  font-size: 18px;
 }
 
 .crumb-current {
@@ -561,7 +558,7 @@ body {
 
 .product-meta h2 {
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(2.15rem, 3vw, 4rem);
+  font-size: 54px;
   line-height: 1;
   font-weight: 500;
   color: #3f3228;
@@ -570,7 +567,7 @@ body {
 
 .detail-price {
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(2rem, 2.6vw, 3rem);
+  font-size: 48px;
   line-height: 1;
   color: #3f3329;
   margin-bottom: 0.52rem;
@@ -591,21 +588,21 @@ body {
 }
 
 .reviews {
-  font-size: 1.28rem;
+  font-size: 20px;
   color: #5b4b3e;
 }
 
 .detail-copy {
   margin: 16px 0 12px;
   color: #43372d;
-  font-size: 1.95rem;
+  font-size: 20px;
   line-height: 1.35;
 }
 
 .name-label {
   display: block;
   font-family: "Cormorant Garamond", serif;
-  font-size: 2.35rem;
+  font-size: 36px;
   color: #3f3229;
   margin-bottom: 8px;
 }
@@ -619,7 +616,7 @@ body {
   height: 56px;
   border: 1px solid rgba(90, 71, 52, 0.28);
   background: rgba(247, 241, 232, 0.58);
-  font-size: 1.6rem;
+  font-size: 24px;
   color: #4e4034;
   padding: 0 16px;
 }
@@ -630,7 +627,7 @@ body {
 
 .field-note {
   color: #6c5d4e;
-  font-size: 1.2rem;
+  font-size: 18px;
   margin: 8px 0 14px;
 }
 
@@ -641,15 +638,16 @@ body {
   background: #a07944;
   color: #f7eee2;
   letter-spacing: 0.6px;
-  font-size: 2.1rem;
+  font-size: 32px;
   font-family: "Cormorant Garamond", serif;
 }
 
 .wishlist {
   margin-top: 14px;
-  display: inline-block;
   color: #524539;
-  font-size: 1.8rem;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
 }
 
 .product-details {
@@ -658,20 +656,20 @@ body {
 
 .product-details h3 {
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(2.5rem, 3vw, 4rem);
+  font-size: 60px;
   color: #3f3228;
   margin-bottom: 0.5rem;
 }
 
 .details-intro {
-  font-size: 1.8rem;
+  font-size: 20px;
   color: #3e3229;
   line-height: 1.55;
   margin-bottom: 0.85rem;
 }
 
 .includes-title {
-  font-size: 2rem;
+  font-size: 32px;
   color: #3f3229;
   margin-bottom: 0.2rem;
 }
@@ -682,7 +680,7 @@ body {
 }
 
 .includes-list li {
-  font-size: 1.66rem;
+  font-size: 20px;
   color: #3f3329;
   line-height: 1.46;
   margin-bottom: 0.26rem;
@@ -714,9 +712,10 @@ body {
 .feature-icon-item span {
   display: block;
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.95rem;
+  font-size: 20px;
   line-height: 1.1;
   color: #46392e;
+  font-weight: 600;
 }
 
 .feature-points {
@@ -730,7 +729,7 @@ body {
   padding-left: 50px;
   margin-bottom: 14px;
   color: #3f3329;
-  font-size: 1.95rem;
+  font-size: 22px;
   line-height: 1.2;
 }
 
@@ -743,13 +742,9 @@ body {
   font-size: 1.4rem;
 }
 
-.related-products {
-  border-top: 1px solid rgba(92, 72, 53, 0.22);
-}
-
 .related-products h4 {
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(2.2rem, 2.7vw, 3.4rem);
+  font-size: 48px;
   font-style: italic;
   text-align: center;
   color: #44372d;
@@ -765,14 +760,14 @@ body {
 
 .related-card h5 {
   font-family: "Cormorant Garamond", serif;
-  font-size: 2.1rem;
+  font-size: 30px;
   margin: 10px 0 1px;
   color: #3f3229;
 }
 
 .related-card p {
   font-family: "Cormorant Garamond", serif;
-  font-size: 2.55rem;
+  font-size: 36px;
   font-weight: 600;
   line-height: 1;
   margin: 0 0 9px;
@@ -781,36 +776,38 @@ body {
 /* PRODUCT DETAILS PAGE STYLES: END */
 /* responsive */
 @media (max-width: 1366px) {
-  .hero-content h2, .section-title, .products-head h2 {font-size: 50px;}
-  .hero-content p {font-size: 26px;}
-  .section-subtitle, .listing-card .price{font-size: 32px;}
+  .hero-content h2, .section-title, .products-head h2, .product-details h3 {font-size: 50px;}
+  .hero-content p, .wishlist {font-size: 26px;}
+  .section-subtitle, .listing-card .price, .name-label, .related-card p{font-size: 32px;}
   .section-copy{font-size: 16px;}
-  .section-divider span, .featured-section .section-divider span{font-size: 40px;}
-  .feature-item h5, .product-card h6, .site-footer h6, .listing-card h3{font-size: 30px;}
+  .section-divider span, .featured-section .section-divider span, .detail-price, .related-products h4{font-size: 40px;}
+  .feature-item h5, .product-card h6, .site-footer h6, .listing-card h3, .cart-btn, .includes-title, .related-card h5{font-size: 30px;}
   .feature-item p{font-size: 16px;}
-  .breadcrumbs{font-size: 22px;}
-  .products-head p, .cat-pill{font-size: 18px;}
+  .breadcrumbs, .name-input{font-size: 22px;}
+  .products-head p, .cat-pill, .reviews, .detail-copy, .details-intro, .includes-list li, .feature-icon-item span{font-size: 18px;}
+  .product-meta h2{font-size: 48px;}
+  .feature-points li{font-size: 20px;}
 }
 @media (max-width: 1199px) { 
-  .hero-content h2, .section-title, .products-head h2 {font-size: 40px;}
-  .hero-content p {font-size: 24px;}
-  .section-subtitle, .listing-card .price{font-size: 30px;}
-  .section-divider span, .featured-section .section-divider span{font-size: 36px;}
-  .feature-item h5, .product-card h6, .site-footer h6, .listing-card h3{font-size: 26px;}
-  .breadcrumbs{font-size: 20px;}
+  .hero-content h2, .section-title, .products-head h2, .product-meta h2, .product-details h3 {font-size: 40px;}
+  .hero-content p,.wishlist {font-size: 24px;}
+  .section-subtitle, .listing-card .price, .name-label, .related-card p{font-size: 30px;}
+  .section-divider span, .featured-section .section-divider span, .detail-price, .related-products h4{font-size: 36px;}
+  .feature-item h5, .product-card h6, .site-footer h6, .listing-card h3, .cart-btn, .includes-title, .related-card h5{font-size: 26px;}
+  .breadcrumbs, .name-input{font-size: 20px;}
 }
 
 @media (max-width: 991px) {
-  .hero-content h2, .section-title, .products-head h2 {font-size: 36px;}
-  .hero-content p {font-size: 22px;}
+  .hero-content h2, .section-title, .products-head h2, .product-meta h2, .product-details h3 {font-size: 36px;}
+  .hero-content p, .wishlist {font-size: 22px;}
   .hero-btn {font-size: 14px;}
-  .section-subtitle, .listing-card .price{font-size: 26px;}
-  .section-divider span, .featured-section .section-divider span{font-size: 30px;}
-  .feature-item h5, .product-card h6, .site-footer h6, .listing-card h3{font-size: 24px;}
-  .breadcrumbs{font-size: 18px;}
-  .custom-orders {font-size: 1.1rem;}
+  .section-subtitle, .listing-card .price, .name-label, .related-card p{font-size: 26px;}
+  .section-divider span, .featured-section .section-divider span, .detail-price, .related-products h4{font-size: 30px;}
+  .feature-item h5, .product-card h6, .site-footer h6, .listing-card h3, .cart-btn, .includes-title, .related-card h5{font-size: 24px;}
+  .breadcrumbs, .name-input, .feature-points li{font-size: 18px;}
+  .custom-orders {font-size: 16px;}
   .main-nav .nav {gap: 1rem !important;}
-  .main-nav .nav-link {font-size: 1.05rem;}
+  .main-nav .nav-link, .reviews, .field-note, .detail-copy, .details-intro, .includes-list li, .feature-icon-item span {font-size: 16px;}
 
   .hero-content {
     padding-left: 1rem;
@@ -838,43 +835,13 @@ body {
   }
   .products-categories{overflow-x: scroll; flex-wrap: nowrap;}
   /* PRODUCT DETAILS PAGE STYLES: START (tablet) */
-  .detail-copy,
-  .details-intro,
-  .includes-list li,
-  .feature-points li {
-    font-size: 1.15rem;
-  }
-
-  .name-label,
-  .related-card h5 {
-    font-size: 1.55rem;
-  }
-
-  .related-card p,
-  .detail-price,
-  .product-meta h2,
-  .product-details h3,
-  .related-products h4 {
-    font-size: 1.9rem;
-  }
-
-  .wishlist {
-    font-size: 1.15rem;
-  }
-
+ 
   .cart-btn {
-    font-size: 1.3rem;
     height: 52px;
   }
 
-  .field-note,
-  .detail-breadcrumbs,
-  .reviews {
-    font-size: 0.95rem;
-  }
-
-  .feature-icon-item span {
-    font-size: 1.1rem;
+  .detail-breadcrumbs {
+    font-size: 16px;
   }
   /* PRODUCT DETAILS PAGE STYLES: END (tablet) */
 }
@@ -882,11 +849,11 @@ body {
 @media (max-width: 767px) {
   .site-header{display: none;}
   .menu{display: block;}
-  .hero-content h2, .section-title, .products-head h2 {font-size: 30px;}
-  .hero-content p {font-size: 20px;}
-  .section-subtitle, .listing-card .price{font-size: 24px;}
+  .hero-content h2, .section-title, .products-head h2, .product-meta h2, .product-details h3 {font-size: 30px;}
+  .hero-content p, .wishlist, .feature-points li {font-size: 20px;}
+  .section-subtitle, .listing-card .price, .name-label, .related-products h4, .related-card p{font-size: 24px;}
   .section-copy, .feature-item p, .view-more{font-size: 14px;}
-  .section-divider span, .featured-section .section-divider span{font-size: 26px;}
+  .section-divider span, .featured-section .section-divider span, .detail-price{font-size: 26px;}
   .products-grid {
     grid-template-columns: 1fr;
     gap: 26px;
@@ -907,9 +874,9 @@ body {
     font-size: 1.6rem;
   }
   .feature-grid {gap: 25px;}
-  .feature-item h5, .product-card h6, .site-footer h6, .listing-card h3{font-size: 22px;}
+  .feature-item h5, .product-card h6, .site-footer h6, .listing-card h3, .cart-btn, .includes-title, .related-card h5{font-size: 22px;}
   .contact a {margin: 0 auto 15px;}
-  .breadcrumbs, .products-head p{font-size: 16px;}
+  .breadcrumbs, .products-head p, .includes-list li, .feature-points li{font-size: 16px;}
   .toolbar-select, .cat-pill{font-size: 14px;}
   .menu, .menu .offcanvas.offcanvas-end.show{
     background-image: url("../images/bg-texture.png");
@@ -933,17 +900,13 @@ body {
     padding-top: 12px;
   }
 
-  .thumb-row {
-    grid-template-columns: 1fr;
-  }
-
   .name-input {
     height: 46px;
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   .detail-breadcrumbs {
-    font-size: 0.95rem;
+    font-size: 14px;
     flex-wrap: wrap;
   }
 
@@ -962,8 +925,8 @@ body {
 }
 @media (max-width: 480px) {
   .menu .navbar-brand img{width: 180px;}
-  .hero-content h2, .section-title, .products-head h2 {font-size: 26px;}
-  .section-divider span, .featured-section .section-divider span{font-size: 24px;}
+  .hero-content h2, .section-title, .products-head h2, .product-meta h2, .product-details h3 {font-size: 26px;}
+  .section-divider span, .featured-section .section-divider span, .detail-price{font-size: 24px;}
 }
 @media (max-width: 400px) {
   .menu .navbar-brand img{width: 150px;}
