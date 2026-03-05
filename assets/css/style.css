@@ -361,10 +361,6 @@ body {
   color: #4e4034;
 }
 
-.products-wrap {
-  max-width: 1240px;
-}
-
 .products-topbar {
   border-bottom: 1px solid rgba(85, 68, 49, 0.18);
   padding-bottom: 10px;
@@ -449,7 +445,11 @@ body {
   font-size: 20px;
   line-height: 1;
 }
-
+.cat-pill:hover{
+  background: #9a6f35;
+  border-color: #8b642e;
+  color: #f7f0e4;
+}
 .cat-pill.active {
   background: #9a6f35;
   border-color: #8b642e;
