@@ -558,7 +558,7 @@ body {
 }
 
 .hero-product-image {
-  aspect-ratio: 1.13 / 1;
+  /* aspect-ratio: 1.13 / 1; */
   object-fit: cover;
   border: 1px solid rgba(71, 55, 38, 0.3);
 }
@@ -810,6 +810,7 @@ body {
   .section-divider span, .featured-section .section-divider span, .detail-price, .related-products h4{font-size: 36px;}
   .feature-item h5, .product-card h6, .site-footer h6, .listing-card h3, .cart-btn, .includes-title, .related-card h5{font-size: 26px;}
   .breadcrumbs, .name-input{font-size: 20px;}
+  .hero-product-image { aspect-ratio: 1.13 / 1; }
 }
 
 @media (max-width: 991px) {
