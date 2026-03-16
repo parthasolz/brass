@@ -131,17 +131,25 @@
         </section>
 
         <section class="products-categories mt-3" aria-label="Categories">
-          <button class="cat-pill active" type="button">Brass</button>
-          <button class="cat-pill" type="button">Pital</button>
-          <button class="cat-pill" type="button">Copper</button>
-          <button class="cat-pill" type="button">Combo</button>
-          <button class="cat-pill" type="button">Glass</button>
-          <button class="cat-pill" type="button">Plate</button>
-          <button class="cat-pill" type="button">Utensils</button>
+          <button class="cat-pill active" type="button" data-filter="all">All</button>
+          <button class="cat-pill" type="button"
+            data-filter="brass">Brass</button>
+          <button class="cat-pill" type="button"
+            data-filter="pital">Pital</button>
+          <button class="cat-pill" type="button"
+            data-filter="copper">Copper</button>
+          <button class="cat-pill" type="button"
+            data-filter="combo">Combo</button>
+          <button class="cat-pill" type="button"
+            data-filter="glass">Glass</button>
+          <button class="cat-pill" type="button"
+            data-filter="plate">Plate</button>
+          <button class="cat-pill" type="button"
+            data-filter="utensils">Utensils</button>
         </section>
 
         <section class="products-grid mt-4">
-          <article class="listing-card text-center">
+          <article class="listing-card text-center" data-category="brass">
             <img src="assets/images/product1.png"
               alt="Personalized Brass Thali Set" class="img-fluid w-100">
             <h3>Personalized Brass Thali Set</h3>
@@ -150,7 +158,7 @@
               Details</a>
           </article>
 
-          <article class="listing-card text-center">
+          <article class="listing-card text-center" data-category="brass">
             <img src="assets/images/product2.png"
               alt="Custom Engraved Brass Mug" class="img-fluid w-100">
             <h3>Custom Engraved Brass Mug</h3>
@@ -159,7 +167,7 @@
               Details</a>
           </article>
 
-          <article class="listing-card text-center">
+          <article class="listing-card text-center" data-category="brass">
             <img src="assets/images/product3.png"
               alt="Traditional Brass Kettle" class="img-fluid w-100">
             <h3>Traditional Brass Kettle</h3>
@@ -168,7 +176,7 @@
               Details</a>
           </article>
 
-          <article class="listing-card text-center">
+          <article class="listing-card text-center" data-category="copper">
             <img src="assets/images/product1.png"
               alt="Brass Diya and Incense Holder" class="img-fluid w-100">
             <h3>Brass Diya &amp; Incense Holder</h3>
@@ -177,7 +185,7 @@
               Details</a>
           </article>
 
-          <article class="listing-card text-center">
+          <article class="listing-card text-center" data-category="copper">
             <img src="assets/images/product1.png"
               alt="Personalized Brass Bowl Set" class="img-fluid w-100">
             <h3>Personalized Brass Bowl Set</h3>
@@ -186,7 +194,7 @@
               Details</a>
           </article>
 
-          <article class="listing-card text-center">
+          <article class="listing-card text-center" data-category="copper">
             <img src="assets/images/product3.png"
               alt="Brass Water Jug and Glasses Set" class="img-fluid w-100">
             <h3>Brass Water Jug and Glasses Set</h3>
@@ -195,7 +203,7 @@
               Details</a>
           </article>
 
-          <article class="listing-card text-center">
+          <article class="listing-card text-center" data-category="pital">
             <img src="assets/images/product1.png"
               alt="Brass Diya and Incense Holder Set" class="img-fluid w-100">
             <h3>Brass Diya &amp; Incense Holder Set</h3>
@@ -204,7 +212,7 @@
               Details</a>
           </article>
 
-          <article class="listing-card text-center">
+          <article class="listing-card text-center" data-category="pital">
             <img src="assets/images/product3.png"
               alt="Personalized Brass Bowl Set" class="img-fluid w-100">
             <h3>Personalized Brass Bowl Set</h3>
@@ -213,7 +221,115 @@
               Details</a>
           </article>
 
-          <article class="listing-card text-center">
+          <article class="listing-card text-center" data-category="pital">
+            <img src="assets/images/product2.png"
+              alt="Ornate Brass Spice Box" class="img-fluid w-100">
+            <h3>Ornate Brass Spice Box</h3>
+            <p class="price">&#8377; 3,200</p>
+            <a href="#" class="details-btn text-decoration-none">View
+              Details</a>
+          </article>
+
+          <article class="listing-card text-center" data-category="combo">
+            <img src="assets/images/product2.png"
+              alt="Ornate Brass Spice Box" class="img-fluid w-100">
+            <h3>Ornate Brass Spice Box</h3>
+            <p class="price">&#8377; 3,200</p>
+            <a href="#" class="details-btn text-decoration-none">View
+              Details</a>
+          </article>
+
+          <article class="listing-card text-center" data-category="combo">
+            <img src="assets/images/product2.png"
+              alt="Ornate Brass Spice Box" class="img-fluid w-100">
+            <h3>Ornate Brass Spice Box</h3>
+            <p class="price">&#8377; 3,200</p>
+            <a href="#" class="details-btn text-decoration-none">View
+              Details</a>
+          </article>
+
+          <article class="listing-card text-center" data-category="combo">
+            <img src="assets/images/product2.png"
+              alt="Ornate Brass Spice Box" class="img-fluid w-100">
+            <h3>Ornate Brass Spice Box</h3>
+            <p class="price">&#8377; 3,200</p>
+            <a href="#" class="details-btn text-decoration-none">View
+              Details</a>
+          </article>
+
+          <article class="listing-card text-center" data-category="glass">
+            <img src="assets/images/product2.png"
+              alt="Ornate Brass Spice Box" class="img-fluid w-100">
+            <h3>Ornate Brass Spice Box</h3>
+            <p class="price">&#8377; 3,200</p>
+            <a href="#" class="details-btn text-decoration-none">View
+              Details</a>
+          </article>
+
+          <article class="listing-card text-center" data-category="glass">
+            <img src="assets/images/product2.png"
+              alt="Ornate Brass Spice Box" class="img-fluid w-100">
+            <h3>Ornate Brass Spice Box</h3>
+            <p class="price">&#8377; 3,200</p>
+            <a href="#" class="details-btn text-decoration-none">View
+              Details</a>
+          </article>
+
+          <article class="listing-card text-center" data-category="glass">
+            <img src="assets/images/product2.png"
+              alt="Ornate Brass Spice Box" class="img-fluid w-100">
+            <h3>Ornate Brass Spice Box</h3>
+            <p class="price">&#8377; 3,200</p>
+            <a href="#" class="details-btn text-decoration-none">View
+              Details</a>
+          </article>
+
+          <article class="listing-card text-center" data-category="plate">
+            <img src="assets/images/product2.png"
+              alt="Ornate Brass Spice Box" class="img-fluid w-100">
+            <h3>Ornate Brass Spice Box</h3>
+            <p class="price">&#8377; 3,200</p>
+            <a href="#" class="details-btn text-decoration-none">View
+              Details</a>
+          </article>
+
+          <article class="listing-card text-center" data-category="plate">
+            <img src="assets/images/product2.png"
+              alt="Ornate Brass Spice Box" class="img-fluid w-100">
+            <h3>Ornate Brass Spice Box</h3>
+            <p class="price">&#8377; 3,200</p>
+            <a href="#" class="details-btn text-decoration-none">View
+              Details</a>
+          </article>
+
+          <article class="listing-card text-center" data-category="plate">
+            <img src="assets/images/product2.png"
+              alt="Ornate Brass Spice Box" class="img-fluid w-100">
+            <h3>Ornate Brass Spice Box</h3>
+            <p class="price">&#8377; 3,200</p>
+            <a href="#" class="details-btn text-decoration-none">View
+              Details</a>
+          </article>
+
+          <article class="listing-card text-center" data-category="utensils">
+            <img src="assets/images/product2.png"
+              alt="Ornate Brass Spice Box" class="img-fluid w-100">
+            <h3>Ornate Brass Spice Box</h3>
+            <p class="price">&#8377; 3,200</p>
+            <a href="#" class="details-btn text-decoration-none">View
+              Details</a>
+          </article>
+
+          <article class="listing-card text-center" data-category="utensils">
+            <img src="assets/images/product2.png"
+              alt="Ornate Brass Spice Box" class="img-fluid w-100">
+            <h3>Ornate Brass Spice Box</h3>
+            <p class="price">&#8377; 3,200</p>
+            <a href="#" class="details-btn text-decoration-none">View
+              Details</a>
+          </article>
+
+          <article class="listing-card text-center" data-category="utensils">
             <img src="assets/images/product2.png"
               alt="Ornate Brass Spice Box" class="img-fluid w-100">
             <h3>Ornate Brass Spice Box</h3>
@@ -276,5 +392,29 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+const filterButtons = document.querySelectorAll('.cat-pill');
+const products = document.querySelectorAll('.listing-card');
+
+filterButtons.forEach(button => {
+  button.addEventListener('click', () => {
+
+    // active class change
+    filterButtons.forEach(btn => btn.classList.remove('active'));
+    button.classList.add('active');
+
+    const filter = button.getAttribute('data-filter');
+
+    products.forEach(product => {
+      if (filter === 'all' || product.dataset.category === filter) {
+        product.style.display = 'block';
+      } else {
+        product.style.display = 'none';
+      }
+    });
+
+  });
+});
+</script>
   </body>
 </html>

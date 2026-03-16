@@ -101,14 +101,14 @@
             <div class="col-lg-6">
               <img src="assets/images/product1.png"
                 alt="Personalized Brass Thali Set"
-                class="hero-product-image w-100">
+                class="hero-product-image w-100" id="mainImage">
               <div class="thumb-row d-grid mt-2">
                 <img src="assets/images/product1.png"
-                  alt="Thali thumbnail one" class="thumb-img w-100">
+                  alt="Thali thumbnail one" class="thumb-img w-100" onclick="changeImage(this)">
                 <img src="assets/images/product2.png"
-                  alt="Thali thumbnail two" class="thumb-img w-100">
+                  alt="Thali thumbnail two" class="thumb-img w-100" onclick="changeImage(this)">
                 <img src="assets/images/product3.png"
-                  alt="Thali thumbnail three" class="thumb-img w-100">
+                  alt="Thali thumbnail three" class="thumb-img w-100" onclick="changeImage(this)">
               </div>
             </div>
 
@@ -166,7 +166,8 @@
             <div class="col-lg-5">
               <div class="feature-icons-row">
                 <div class="feature-icon-item">
-                  <img src="assets/images/product_Details_1.png" alt="Premium Brass">
+                  <img src="assets/images/product_Details_1.png"
+                    alt="Premium Brass">
                   <span>Premium<br>Brass</span>
                 </div>
                 <div class="feature-icon-item">
@@ -183,15 +184,18 @@
 
               <ul class="feature-points">
                 <li>
-                  <img src="assets/images/product_Details_4.png" alt="Premium Brass" class="img-fluid">
+                  <img src="assets/images/product_Details_4.png"
+                    alt="Premium Brass" class="img-fluid">
                   Premium Brass
                 </li>
                 <li>
-                  <img src="assets/images/product_Details_5.png" alt="Premium Brass" class="img-fluid">
+                  <img src="assets/images/product_Details_5.png"
+                    alt="Premium Brass" class="img-fluid">
                   Custom Engravings
                 </li>
                 <li>
-                  <img src="assets/images/product_Details_6.png" alt="Premium Brass" class="img-fluid">
+                  <img src="assets/images/product_Details_6.png"
+                    alt="Premium Brass" class="img-fluid">
                   Timeless design for any occasion
                 </li>
               </ul>
@@ -280,5 +284,10 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+    function changeImage(element){
+      document.getElementById("mainImage").src = element.src;
+    }
+    </script>
   </body>
 </html>

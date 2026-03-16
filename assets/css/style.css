@@ -572,6 +572,7 @@ body {
   aspect-ratio: 1.45 / 1;
   object-fit: cover;
   border: 1px solid rgba(71, 55, 38, 0.25);
+  cursor: pointer;
 }
 
 .product-meta h2 {
